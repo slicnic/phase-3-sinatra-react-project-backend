@@ -1,3 +1,11 @@
+puts "🗑️ Wiping the slate clean..."
+
+User.destroy_all
+Recipe.destroy_all
+Reviews.destroy_all
+
+puts "🗑️ Slate clean!"
+
 puts "🌱 Planting seeds..."
 
 u1 = User.create(first_name: "Leeroy", last_name: "Jenkins", birthday: 1969-07-08, clan: "World of Warcraft")
