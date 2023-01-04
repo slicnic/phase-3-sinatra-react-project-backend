@@ -62,8 +62,8 @@ ingredients:
     
 instructions: 
 ["Prep darkest piece of stone or wood you can find by leaving in the sun as long as possible.", 
-"Warm ingredients by breathing as quickly as possible on them. Place warm ingredients on warm granite.", 
-"Let sit out in the open with sunlight for 2 and 1/2 days until crusty and chewy. Enjoy quickly and try not to taste any of it."])
+"Warm ingredients by breathing moist hot breath as quickly as possible, directly on them. Place warm ingredients on warm stone or wood.", 
+"Let sit out in the open with sunlight for 2 1/2 days until crusty and chewy. Enjoy quickly and try not to taste any of it."])
 
 rec3 = Recipe.create(title: "Meat Stuffed Pumpkin", series: "Breath of the Wild", image_url: "https://www.myexcellentdegustations.com/wp-content/uploads/2020/11/00F0C871-5E27-4181-93F9-99C5AAAFAF5C.jpeg", prep_time: "10 minutes",
 ingredients: 
@@ -98,7 +98,7 @@ instructions:
 "If you’re having a grand meal, serve one of these alongside one chop from your roast rack of lamb so everyone feels like they had a hearty, somewhat grand main course. You’ll save money while also looking quite fancy.",
 "For a more modest Shire inspired meal, serve these alongside mashed potatoes, green peas cooked with rosemary, and a hunk of fresh bread."])
 
-rec5 = Recipe.create(title: "Argonian Swamp Shrimp Bowl", series: "Elder Scrolls", image_url: "", prep_time: "15 minutes", 
+rec5 = Recipe.create(title: "Argonian Swamp Shrimp Bowl", series: "Elder Scrolls", image_url: "https://www.sidechef.com/recipe/57c8d7fc-834f-42a9-82f4-af780f303913.jpg", prep_time: "15 minutes", 
 
 ingredients: 
 ["2 cups water",
@@ -120,7 +120,7 @@ ingredients:
 "Stir for several minutes until the whole mixture has reduced somewhat and is a nice thick consistency, but still pourable. Remove from the heat and stir in the butter and cream.", 
 "Transfer the shrimp to a serving dish and either pour the sauce over them or serve it on the side for dipping."])
 
-rec6 = Recipe.create(title: "Radscorpion En Croute", series: "Fallout", image_url: "", prep_time: "1 hour 30 minutes",
+rec6 = Recipe.create(title: "Radscorpion En Croute", series: "Fallout", image_url: "http://3.bp.blogspot.com/_U8HiDdTziyc/SToaPMeiheI/AAAAAAAACe0/vqZ6aDF9Cp8/s400/scorpio-cake.jpg", prep_time: "1 hour 30 minutes",
 
 ingredients: 
 ["1 tablespoon unsalted butter",
@@ -151,20 +151,44 @@ instructions:
 "Place in the oven and bake until the puff pastry is golden brown, about 50 minutes.", 
 "Remove from the oven and cool for 10 minutes before removing from the muffin tin and serving."])
 
-#rec7 = Recipe.create(title: "", series: "", image_url: "", prep_time: "", ingredients: "", instructions: "")
+rec7 = Recipe.create(title: "Seared Nordic Barnacles", series: "Elder Scrolls", image_url: "https://img-9gag-fun.9cache.com/photo/aO09ER2_700bwp.webp", prep_time: "40 minutes",
 
-rev1 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: user.id, recipe_id: recipe.id )
+ingredients:
+["2 teaspoons crushed juniper berries",
+"1 cup white wine",
+"Splash of apple cider vinegar or white wine vinegar",
+"1 pound sea scallops",
+"2 or 3 bacon strips",
+"6 tablespoons unsalted butter",
+"2 cloves garlic, minced",
+"2 tablespoons maple syrup"], 
 
-rev2 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: user.id, recipe_id: recipe.id )
+instructions:
+["In a large bowl, combine the juniper berries, white wine, and vinegar to create a marinade.", 
+"Add the scallops, turning to coat.", 
+"Let sit for about 20 minutes while you prepare the bacon.",
+"In a medium saute pan or skillet over medium heat, cook the bacon until crispy.", 
+"Transfer the bacon to paper towels to drain, then crumble into a small bowl and set aside. Drain the fat from the pan.",
+"When you're ready to cook the scallops, melt the butter in the pan over medium heat.",
+"Remove the scallops from the marinade, reserving the liquid.",
+"Arrange some of the scallops in the pan, flat-side down, leaving some space in between them. Sear until they are a nice golden brown, roughly 3 minutes. Flip the scallops and cook for another 3 minutes to brown the other side.",
+"Remove to a separate plate and cook the rest of the scallops until all of the scallops have been cooked. Set aside while you finish up the sauce.",
+"Add the garlic to the pan and cook until fragrant and golden brown, about 3 minutes.",
+"Add the reserved marinade liquid along with the maple syrup and simmer until the sauce is somewhat reduced and thickened, about 3 to 5 minutes.",
+"To serve, sprinkle the crumbled bacon on a plate and set the scallops on top. Drizzle the sauce over the scallops."])
 
-rev3 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: user.id, recipe_id: recipe.id )
+rev1 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: u1.id, recipe_id: rec6.id )
 
-rev4 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: user.id, recipe_id: recipe.id )
+rev2 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: u2.id, recipe_id: rec1.id )
 
-rev5 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: user.id, recipe_id: recipe.id )
+rev3 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: u3.id, recipe_id: rec2.id )
 
-rev6 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: user.id, recipe_id: recipe.id )
+rev4 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: u4.id, recipe_id: rec3.id )
 
-rev7 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: user.id, recipe_id: recipe.id )
+rev5 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: u1.id, recipe_id: rec4.id )
+
+rev6 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: u2.id, recipe_id: rec5.id )
+
+rev7 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec7.id )
 
 puts "✅ Done seeding!"
