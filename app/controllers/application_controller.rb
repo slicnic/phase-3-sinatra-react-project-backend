@@ -77,7 +77,7 @@ class ApplicationController < Sinatra::Base
       prep_time: "",
       ingredients: "",
       instructions: "",
-      user_id: params[:user_id]
+      user_id: params[:user_id],
       recipe_id: params[:recipe_id]
     )
     review.to_json
