@@ -10,7 +10,17 @@ u4 = User.create(first_name: "Siouxsie", last_name: "Sioux", birthday: 1957-05-2
 #AKA, something like https://variety.com/wp-content/uploads/2022/11/Taylor-Swift.jpg?w=1024 
 #I used Taylor Swift because she's a snack B)
 
-rec1 = Recipe.create(title: "Pan Fried Tater Cakes", series: "LOTR", image_url: "https://i.imgur.com/ME7BMcz.jpg", prep_time: "25 minutes", ingredients: ["1 cup shredded potatoes", "2 cups mashed potatoes", "1 cup flour", "1 large onion, minced", "1/2 c shredded cheddar", "1/4 cup whole milk", "2 garlic gloves, minced", "1 tbsp coarse salt", "1 tsp fresh ground black pepper", "4 tbsp softened butter, plus 4-6 tbsp butter for frying"], 
+#follow the formatting below
+#separate ingredients/instruction steps with commas inside of an array
+
+rec1 = Recipe.create(title: "Pan Fried Tater Cakes", series: "LOTR", image_url: "https://i.imgur.com/ME7BMcz.jpg", prep_time: "25 minutes", 
+    ingredients: ["1 cup shredded potatoes", 
+        "2 cups mashed potatoes", "1 cup flour", 
+        "1 large onion, minced", "1/2 c shredded cheddar", 
+        "1/4 cup whole milk", "2 garlic gloves, minced", 
+        "1 tbsp coarse salt", 
+        "1 tsp fresh ground black pepper", 
+        "4 tbsp softened butter, plus 4-6 tbsp butter for frying"], 
     instructions: 
     ["Peel and grate your raw potatoes. To reduce the starch, soak them in cold water for five minutes. Don’t skip this step. It makes a big difference. While the raw potatoes are soaking, mix your leftover mashed potatoes, flour, minced onion, minced garlic, salt, pepper, milk, shredded cheese and softened butter. You should end up with something a little thicker than lumpy pancake batter. Drain your raw potato shreds, give them one last rinse, and mix them into the batter.", 
         "Melt a tbsp of butter in a large skillet over medium heat – no hotter! Drop in a heaping tbsp full of batter and use the back of a spoon to flatten it slightly. You should be able to fry 3 potato cakes in a round pan or four in a square one.", 
