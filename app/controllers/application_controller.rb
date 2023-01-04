@@ -3,7 +3,7 @@ class ApplicationController < Sinatra::Base
   
   # Add your routes here
   get "/" do
-    { Hey_I_Know_You: "I used to be an adventurer like you. Then I took a 404 to the knee." }.to_json
+    { Hey_I_Know_You: "I used to be an adventurer like you. Then I took a 404 🏹 to the knee 🦵🏼." }.to_json
   end
 
   #FOR RECIPES 
