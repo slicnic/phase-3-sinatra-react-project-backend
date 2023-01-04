@@ -41,12 +41,12 @@ rec5 = Recipe.create(title: "", series: "", image_url: "", prep_time: "", ingred
 rec6 = Recipe.create(title: "", series: "", image_url: "", prep_time: "", ingredients: "", instructions: "")
 rec7 = Recipe.create(title: "", series: "", image_url: "", prep_time: "", ingredients: "", instructions: "")
 
-rev1 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev2 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev3 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev4 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev5 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev6 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
-rev7 = Review.create(star_rating: rand(1..10), comment: "", user_id: , recipe_id: )
+rev1 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id , recipe_id: recipe.id )
+rev2 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
+rev3 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
+rev4 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
+rev5 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
+rev6 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
+rev7 = Review.create(star_rating: rand(1..10), comment: "", user_id: user.id, recipe_id: recipe.id )
 
 puts "✅ Done seeding!"
