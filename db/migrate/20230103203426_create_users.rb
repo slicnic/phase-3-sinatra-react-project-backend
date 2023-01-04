@@ -3,8 +3,8 @@ class CreateUsers < ActiveRecord::Migration[6.1]
     create_table :users do |t|
       t.string :first_name
       t.string :last_name
-      t.integer :birthday
-      t.string :"clan(favorite fantasy)" #pretty sure if these parentheses will fuck up functionality
+      t.date :birthday #YYYY-MM-DD
+      t.string :clan #fantasy tribe/genre
     end
   end
 end
