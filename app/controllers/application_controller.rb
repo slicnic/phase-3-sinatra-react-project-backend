@@ -9,13 +9,16 @@ class ApplicationController < Sinatra::Base
   #FOR RECIPES 
 
   #get all recipes and display their information
+  #works
   get "/recipes" do
     recipe = Recipe.all.order(:title)
-    recipe.to_json(include: [:series, :image_url, :prep_time, :ingredients, :instructions])
+    recipe.to_json
+    # recipe.to_json(include: [:series, :image_url, :prep_time, :ingredients, :instructions])
   end
 
 
   #get a specific recipe
+  #works
   get "/recipes/:id" do
     recipe = Recipe.find(params[:id])
     recipe.to_json(include: { reviews: { include: :user }})
