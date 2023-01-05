@@ -76,15 +76,12 @@ class ApplicationController < Sinatra::Base
   end
 
   #post a new review
+  #works
 
   post "/reviews" do
     review = Review.create(
-      title: "",
-      series: "",
-      image_url: "", 
-      prep_time: "",
-      ingredients: "",
-      instructions: "",
+      star_rating: params[:star_rating],
+      comment: params[:comment],
       user_id: params[:user_id],
       recipe_id: params[:recipe_id]
     )
@@ -95,6 +92,7 @@ class ApplicationController < Sinatra::Base
 
   #display user data + user reviews
   #this may have to be modified; test it
+  #works
 
   get "/users" do
     users = User.all 
