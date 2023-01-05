@@ -12,7 +12,7 @@ class ApplicationController < Sinatra::Base
   #works
   get "/recipes" do
     recipe = Recipe.all.order(:title)
-    recipe.to_json
+    recipe.to_json(include: :reviews)
     # recipe.to_json(include: [:series, :image_url, :prep_time, :ingredients, :instructions])
   end
 
