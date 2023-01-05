@@ -21,18 +21,21 @@ class ApplicationController < Sinatra::Base
   #works
   get "/recipes/:id" do
     recipe = Recipe.find(params[:id])
-    recipe.to_json(include: { reviews: { include: :user }})
+    recipe.to_json(include: {reviews: { include: :user }})
   end 
 
   #delete a recipe
+  #works
 
   delete "/recipes/:id" do
     recipe = Recipe.find(params[:id])
     recipe.destroy
-    recipe.to_json(include: [:title, :series, :image_url, :prep_time, :ingredients, :instructions])
+    recipe.to_json
+    # recipe.to_json(include: [:title, :series, :image_url, :prep_time, :ingredients, :instructions])
   end 
 
   #post a new recipe
+  #works
 
   post "/recipes" do
     recipe = Recipe.create(
@@ -47,6 +50,7 @@ class ApplicationController < Sinatra::Base
   end 
 
   #update a recipe
+  # works
   patch "/recipes/:id" do 
     recipe = Recipe.find(params[:id])
     recipe.update(
@@ -64,6 +68,7 @@ class ApplicationController < Sinatra::Base
   #FOR REVIEWS
 
   #display all reviews
+  #works
 
   get "/reviews" do
     reviews = Review.all
