@@ -457,85 +457,85 @@ rev6 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfe
 
 rev8 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u7.id, recipe_id: rec7.id )
 
-rev9 = Review.create(star_rating: rand(1..10), comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.", user_id: u8.id, recipe_id: rec8.id )
+rev9 = Review.create(star_rating: rand(1..10), comment: "Pretty damn mid.", user_id: u8.id, recipe_id: rec8.id )
 
-rev10 = Review.create(star_rating: rand(1..10), comment: "montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra", user_id: u9.id, recipe_id: rec9.id )
+rev10 = Review.create(star_rating: rand(1..10), comment: "blehhhg", user_id: u9.id, recipe_id: rec9.id )
 
-rev11 = Review.create(star_rating: rand(1..10), comment: "curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna", user_id: u0.id, recipe_id: rec10.id )
+rev11 = Review.create(star_rating: rand(1..10), comment: "Yummm my new favorite dish", user_id: u0.id, recipe_id: rec10.id )
 
-rev12 = Review.create(star_rating: rand(1..10), comment: "eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec", user_id: u3.id, recipe_id: rec11.id )
-
-
-
-rev13 = Review.create(star_rating: rand(1..10), comment: "in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in", user_id: u0.id, recipe_id: rec6.id )
-
-rev14 = Review.create(star_rating: rand(1..10), comment: "habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet", user_id: u9.id, recipe_id: rec1.id )
-
-rev15 = Review.create(star_rating: rand(1..10), comment: "sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam", user_id: u8.id, recipe_id: rec18.id )
-
-rev16 = Review.create(star_rating: rand(1..10), comment: "non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit", user_id: u7.id, recipe_id: rec3.id )
-
-rev17 = Review.create(star_rating: rand(1..10), comment: "arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed", user_id: u6.id, recipe_id: rec4.id )
-
-rev18 = Review.create(star_rating: rand(1..10), comment: "diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate", user_id: u5.id, recipe_id: rec5.id )
-
-rev19 = Review.create(star_rating: rand(1..10), comment: "ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus", user_id: u4.id, recipe_id: rec7.id )
-
-rev20 = Review.create(star_rating: rand(1..10), comment: "diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi", user_id: u3.id, recipe_id: rec8.id )
-
-rev21 = Review.create(star_rating: rand(1..10), comment: "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies", user_id: u2.id, recipe_id: rec9.id )
-
-rev22 = Review.create(star_rating: rand(1..10), comment: "feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas", user_id: u1.id, recipe_id: rec10.id )
-
-rev23 = Review.create(star_rating: rand(1..10), comment: "commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed", user_id: u3.id, recipe_id: rec17.id )
+rev12 = Review.create(star_rating: rand(1..10), comment: "hot damn this is nasty", user_id: u3.id, recipe_id: rec11.id )
 
 
 
-rev24 = Review.create(star_rating: rand(1..10), comment: "tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur", user_id: u0.id, recipe_id: rec11.id )
+rev13 = Review.create(star_rating: rand(1..10), comment: "MEEHHHHHHHH", user_id: u0.id, recipe_id: rec6.id )
 
-rev25 = Review.create(star_rating: rand(1..10), comment: "vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas", user_id: u9.id, recipe_id: rec12.id )
+rev14 = Review.create(star_rating: rand(1..10), comment: "Yeah you know, really not too shabby coming from a dwarf kitchen", user_id: u9.id, recipe_id: rec1.id )
 
-rev26 = Review.create(star_rating: rand(1..10), comment: "accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur", user_id: u8.id, recipe_id: rec13.id )
+rev15 = Review.create(star_rating: rand(1..10), comment: "Made me lose all my memories for 3 minutes", user_id: u8.id, recipe_id: rec18.id )
 
-rev27 = Review.create(star_rating: rand(1..10), comment: "sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam", user_id: u7.id, recipe_id: rec14.id )
+rev16 = Review.create(star_rating: rand(1..10), comment: "Kind of a an awful texture, as well as taste", user_id: u7.id, recipe_id: rec3.id )
 
-rev28 = Review.create(star_rating: rand(1..10), comment: "integ vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus", user_id: u6.id, recipe_id: rec15.id )
+rev17 = Review.create(star_rating: rand(1..10), comment: "Defintely a new fave of mine", user_id: u6.id, recipe_id: rec4.id )
 
-rev29 = Review.create(star_rating: rand(1..10), comment: "at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam", user_id: u5.id, recipe_id: rec16.id )
+rev18 = Review.create(star_rating: rand(1..10), comment: "Spectacular!", user_id: u5.id, recipe_id: rec5.id )
 
-rev30 = Review.create(star_rating: rand(1..10), comment: "sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi", user_id: u4.id, recipe_id: rec17.id )
+rev19 = Review.create(star_rating: rand(1..10), comment: "I think I'll be coming back for seconds if there are any!", user_id: u4.id, recipe_id: rec7.id )
 
-rev31 = Review.create(star_rating: rand(1..10), comment: "suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque", user_id: u3.id, recipe_id: rec18.id )
+rev20 = Review.create(star_rating: rand(1..10), comment: "A big hit with my kiddos", user_id: u3.id, recipe_id: rec8.id )
 
-rev32 = Review.create(star_rating: rand(1..10), comment: "phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae", user_id: u2.id, recipe_id: rec1.id )
+rev21 = Review.create(star_rating: rand(1..10), comment: "One time I was chewing on my little brothers used sock and this meal strongly reminded me of that flavor", user_id: u2.id, recipe_id: rec9.id )
 
-rev33 = Review.create(star_rating: rand(1..10), comment: "ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras", user_id: u1.id, recipe_id: rec3.id )
+rev22 = Review.create(star_rating: rand(1..10), comment: "tasty tasty tasty", user_id: u1.id, recipe_id: rec10.id )
 
-rev34 = Review.create(star_rating: rand(1..10), comment: "mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue", user_id: u3.id, recipe_id: rec11.id )
+rev23 = Review.create(star_rating: rand(1..10), comment: "Made Commodore Norrington vomit upon his first whiff.", user_id: u3.id, recipe_id: rec17.id )
 
 
 
-rev35 = Review.create(star_rating: rand(1..10), comment: "cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis", user_id: u0.id, recipe_id: rec16.id )
+rev24 = Review.create(star_rating: rand(1..10), comment: "tour of a what a supremely made dish should be", user_id: u0.id, recipe_id: rec11.id )
 
-rev36 = Review.create(star_rating: rand(1..10), comment: "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis lectus magna fringilla urna", user_id: u9.id, recipe_id: rec11.id )
+rev25 = Review.create(star_rating: rand(1..10), comment: "Pretty good", user_id: u9.id, recipe_id: rec12.id )
 
-rev37 = Review.create(star_rating: rand(1..10), comment: "mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in", user_id: u8.id, recipe_id: rec12.id )
+rev26 = Review.create(star_rating: rand(1..10), comment: "Momma dont need to make that for me again", user_id: u8.id, recipe_id: rec13.id )
 
-rev38 = Review.create(star_rating: rand(1..10), comment: "tellus mauris a diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus", user_id: u7.id, recipe_id: rec7.id )
+rev27 = Review.create(star_rating: rand(1..10), comment: "Wow freshness for the tastebuds", user_id: u7.id, recipe_id: rec14.id )
 
-rev39 = Review.create(star_rating: rand(1..10), comment: "imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero", user_id: u6.id, recipe_id: rec9.id )
+rev28 = Review.create(star_rating: rand(1..10), comment: "Nahhh really not my kind of dish", user_id: u6.id, recipe_id: rec15.id )
 
-rev40 = Review.create(star_rating: rand(1..10), comment: "id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae", user_id: u5.id, recipe_id: rec13.id )
+rev29 = Review.create(star_rating: rand(1..10), comment: "An outdone performance of beauty and splendor", user_id: u5.id, recipe_id: rec16.id )
 
-rev41 = Review.create(star_rating: rand(1..10), comment: "quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat", user_id: u4.id, recipe_id: rec13.id )
+rev30 = Review.create(star_rating: rand(1..10), comment: "Wowza", user_id: u4.id, recipe_id: rec17.id )
 
-rev42 = Review.create(star_rating: rand(1..10), comment: "netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa", user_id: u3.id, recipe_id: rec1.id )
+rev31 = Review.create(star_rating: rand(1..10), comment: "stupendous", user_id: u3.id, recipe_id: rec18.id )
 
-rev43 = Review.create(star_rating: rand(1..10), comment: "ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum", user_id: u2.id, recipe_id: rec5.id )
+rev32 = Review.create(star_rating: rand(1..10), comment: "Really marvelous", user_id: u2.id, recipe_id: rec1.id )
 
-rev44 = Review.create(star_rating: rand(1..10), comment: "pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi", user_id: u1.id, recipe_id: rec17.id )
+rev33 = Review.create(star_rating: rand(1..10), comment: "Booyah", user_id: u1.id, recipe_id: rec3.id )
 
-rev45 = Review.create(star_rating: rand(1..10), comment: "interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet", user_id: u3.id, recipe_id: rec8.id )
+rev34 = Review.create(star_rating: rand(1..10), comment: "damn too freaking good", user_id: u3.id, recipe_id: rec11.id )
+
+
+
+rev35 = Review.create(star_rating: rand(1..10), comment: "I would bathe in this", user_id: u0.id, recipe_id: rec16.id )
+
+rev36 = Review.create(star_rating: rand(1..10), comment: "I would not bathe in this", user_id: u9.id, recipe_id: rec11.id )
+
+rev37 = Review.create(star_rating: rand(1..10), comment: "Just so so", user_id: u8.id, recipe_id: rec12.id )
+
+rev38 = Review.create(star_rating: rand(1..10), comment: "Nothing to write home about", user_id: u7.id, recipe_id: rec7.id )
+
+rev39 = Review.create(star_rating: rand(1..10), comment: "I just ate it because I had too", user_id: u6.id, recipe_id: rec9.id )
+
+rev40 = Review.create(star_rating: rand(1..10), comment: "Really unfortunately bad", user_id: u5.id, recipe_id: rec13.id )
+
+rev41 = Review.create(star_rating: rand(1..10), comment: "So much promise, so little performance", user_id: u4.id, recipe_id: rec13.id )
+
+rev42 = Review.create(star_rating: rand(1..10), comment: "gave me the hickups, I hate hickups", user_id: u3.id, recipe_id: rec1.id )
+
+rev43 = Review.create(star_rating: rand(1..10), comment: "especially salty", user_id: u2.id, recipe_id: rec5.id )
+
+rev44 = Review.create(star_rating: rand(1..10), comment: "best food ive ver had", user_id: u1.id, recipe_id: rec17.id )
+
+rev45 = Review.create(star_rating: rand(1..10), comment: "Pretty damn spicy", user_id: u3.id, recipe_id: rec8.id )
 
 
 rev46 = Review.create(star_rating: rand(1..10), comment: "ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod", user_id: u9.id, recipe_id: rec16.id )
