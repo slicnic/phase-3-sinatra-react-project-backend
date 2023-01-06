@@ -188,7 +188,7 @@ Add the garlic to the pan and cook until fragrant and golden brown, about 3 minu
 Add the reserved marinade liquid along with the maple syrup and simmer until the sauce is somewhat reduced and thickened, about 3 to 5 minutes.
 To serve, sprinkle the crumbled bacon on a plate and set the scallops on top. Drizzle the sauce over the scallops.")
 
-rec8 = Recipe.create(title: "Porgy Meunier", series: "Breath of the Wild", image_url: "", prep_time: "5 minutes",
+rec8 = Recipe.create(title: "Porgy Meunier", series: "Breath of the Wild", image_url: "https://honest-food.net/wp-content/uploads/2019/04/southern-fish-stew.jpg", prep_time: "5 minutes",
 ingredients: 
 ["Tabantha wheat",
 "Goat butter",
@@ -197,9 +197,9 @@ ingredients:
 instructions: 
 "Stuff porgy with tabantha wheat. Melt goat butter in a skillet on low heat until browned. Pan fry porgy until crispy on both sides and serve with goat butter on top")
 
-#needs reviews
 
-rec9 = Recipe.create(title: "Hot Mudcrab Dip", series: "Elder Scrolls", image_url: "", prep_time: "20 minutes",
+
+rec9 = Recipe.create(title: "Hot Mudcrab Dip", series: "Elder Scrolls", image_url: "https://therecipecritic.com/wp-content/uploads/2018/09/cheesy_hot_crab_diphero-1-667x1000.jpg", prep_time: "20 minutes",
 
 ingredients: 
 ["8 ounces softened cream cheese",
@@ -220,9 +220,9 @@ Add the remaining ingredients except the Parmesan, stirring until it is evenly b
 Transfer the mixture to a medium the baking dish and smooth out the top. 
 Sprinkle with the Parmesan cheese and bake for about 20minutes, or until the dip is hot and the cheese is starting to turn golden brown on top. 
 Serve with crackers or a sliced baguette.")
-#needs reviews
 
-rec10 = Recipe.create(title: "Breakfast On The Wall", series: "GOT", image_url: "", prep_time: "15 minutes",
+
+rec10 = Recipe.create(title: "Breakfast On The Wall", series: "GOT", image_url: "https://www.budgetbytes.com/wp-content/uploads/2021/12/Glazed-Ham-Steaks-V2.jpg", prep_time: "15 minutes",
 ingredients: 
 ["1 breakfast ham steak",
 "1 tablespoon oil",
@@ -242,9 +242,9 @@ For slightly softer eggs, cook for an initial 4½ minutes.
 Melt the butter in the skillet you used for the ham and fry the slices of
 bread. Transfer the bread to the plate, add the prunes, and you're ready
 to break your fast!")
-#needs reviews
 
-rec11 = Recipe.create(title: "Medieval Pease Porridge", series: "GOT", image_url: "", prep_time: "50 minutes",
+
+rec11 = Recipe.create(title: "Medieval Pease Porridge", series: "GOT", image_url: "https://thegypsychef.com/wp-content/uploads/peaseporridge.jpg", prep_time: "50 minutes",
 ingredients: 
 ["2 cups dried yellow split peas",
 "6 cups water",
@@ -269,9 +269,9 @@ chopped herbs, ½ teaspoon saffron, oil, and salt. Cook over medium heat
 for 5 minutes, stirring constantly to prevent sticking.
 Place the pease porridge in a serving dish and sprinkle a pinch of
 saffron and poudre douce on top for color and flavor.")
-#needs reviews
 
-rec12 = Recipe.create(title: "Fingerfish", series: "GOT", image_url: "", prep_time: "20 minutes",
+
+rec12 = Recipe.create(title: "Fingerfish", series: "GOT", image_url: "https://www.seriouseats.com/thmb/NgRWREp-b8VAZO1QcUGrt3hYHbU=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/20211201-whole-roasted-fish-vicky-wasik-5-f0627cc547f74317b944f5a323fcc6b3.jpg", prep_time: "20 minutes",
 ingredients: 
 ["10 hamsi (European anchovies), or other very small fresh fish such as sardines or smelt",
 "1 cup cornmeal",
@@ -281,9 +281,9 @@ ingredients:
 
 instructions: 
 "Mash it all up into a pasty texture and pour down your gullet")
-#needs reviews
 
-rec13 = Recipe.create(title: "Breakfast in King's Landing", series: "GOT", image_url: "", prep_time: "30 minutes",
+
+rec13 = Recipe.create(title: "Breakfast in King's Landing", series: "GOT", image_url: "https://www.skinnytaste.com/wp-content/uploads/2019/01/Instant-Pot-Steel-Cut-Oatmeal-6.jpg", prep_time: "30 minutes",
 ingredients: 
 ["1 Traditional Fingerfish, cooked and kept warm", 
 "1½ cups steel cut oats, soaked in water overnight Milk (whatever you most commonly use is fine)",
@@ -295,9 +295,9 @@ instructions:
 Place the lid on the pot and cook over medium-low heat for 10 minutes. 
 Meanwhile, prepare the eggs to your liking. 
 Arrange all the breakfast elements on your plate, and enjoy!")
-#needs reviews
 
-rec14 = Recipe.create(title: "Spiced Brown Sugar Coffee", series: "Chronicles of Narnia", image_url: "", prep_time: "4 minutes",
+
+rec14 = Recipe.create(title: "Spiced Brown Sugar Coffee", series: "Chronicles of Narnia", image_url: "https://fitfoodiefinds.com/wp-content/uploads/2021/09/Shaken-Espresso-05.jpg", prep_time: "4 minutes",
 ingredients: 
 ["1 mug hot brewed coffee, regular or decaf",
 "1 tablespoon brown sugar",
@@ -309,7 +309,7 @@ instructions:
 "Add the sugar and spices to the mug of coffee and stir to combine. Add the
 heavy cream.")
 
-rec15 = Recipe.create(title: "Turkish Delight", series: "Chronicles of Narnia", image_url: "", prep_time: "Overnight",
+rec15 = Recipe.create(title: "Turkish Delight", series: "Chronicles of Narnia", image_url: "https://aegeandelight.com/wp-content/uploads/2021/11/turkish-delight-lokum-22-1-683x1024.jpg", prep_time: "Overnight",
 ingredients: 
 ["SUGAR SYRUP:",
 "4 cups sugar",
@@ -355,7 +355,7 @@ mixing bowl and whisk to combine. Toss several pieces of the candy at a
 time into the confectioners’ sugar–cornstarch mixture to coat. Store in an
 airtight container between layers of plastic wrap or parchment paper.")
 
-rec16 = Recipe.create(title: "Iron Forge Rations", series: "World Of Warcraft", image_url: "", prep_time: "15 minutes",
+rec16 = Recipe.create(title: "Iron Forge Rations", series: "World Of Warcraft", image_url: "https://cdn-japantimes.com/wp-content/uploads/2021/09/np_file_109146.jpeg", prep_time: "15 minutes",
 ingredients: 
 ["2 tablespoons butter",
 "2 to 3 shallots, thinly sliced",
@@ -381,7 +381,7 @@ top with cheddar cheese, and place under the broiler
 until the cheese has melted. Top with a pinch of salt and
 pepper to garnish, and enjoy!")
 
-rec17 = Recipe.create(title: "Roasted Quail", series: "World Of Warcraft", image_url: "", prep_time: "40 minutes",
+rec17 = Recipe.create(title: "Roasted Quail", series: "World Of Warcraft", image_url: "https://img.apmcdn.org/c1c3143fe20af231bfac42770ab1ce0c12ef282e/uncropped/358c4e-splendid-table-sfs-pomegranate-glazed-roasted-quail-037-lede.jpg", prep_time: "40 minutes",
 ingredients: 
 ["6 quails",
 "2 cloves fresh minced garlic",
@@ -410,7 +410,7 @@ oven for another 10 to 15 minutes or so. If you'd like a
 more golden color, place the quail under the broiler for a
 few minutes until they are nicely browned.")
 
-rec18 = Recipe.create(title: "Tender Shoveltusk Steak", series: "World of War Craft", image_url: "", prep_time: "30 minutes",
+rec18 = Recipe.create(title: "Tender Shoveltusk Steak", series: "World of War Craft", image_url: "https://american-eats.com/wp-content/uploads/2020/11/Butchers-Bistro-900x600.jpg", prep_time: "30 minutes",
 ingredients: 
 ["2 steaks, about 1 pound each, at room temperature",
 "1 tablespoon olive oil",
@@ -457,108 +457,108 @@ rev6 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfe
 
 rev8 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u7.id, recipe_id: rec7.id )
 
-rev9 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u8.id, recipe_id: rec8.id )
+rev9 = Review.create(star_rating: rand(1..10), comment: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget.", user_id: u8.id, recipe_id: rec8.id )
 
-rev10 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u9.id, recipe_id: rec9.id )
+rev10 = Review.create(star_rating: rand(1..10), comment: "montes nascetur ridiculus mus mauris vitae ultricies leo integer malesuada nunc vel risus commodo viverra", user_id: u9.id, recipe_id: rec9.id )
 
-rev11 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u0.id, recipe_id: rec10.id )
+rev11 = Review.create(star_rating: rand(1..10), comment: "curabitur vitae nunc sed velit dignissim sodales ut eu sem integer vitae justo eget magna", user_id: u0.id, recipe_id: rec10.id )
 
-rev12 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec11.id )
-
-
-
-rev13 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: u0.id, recipe_id: rec6.id )
-
-rev14 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: u9.id, recipe_id: rec1.id )
-
-rev15 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: u8.id, recipe_id: rec18.id )
-
-rev16 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: u7.id, recipe_id: rec3.id )
-
-rev17 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: u6.id, recipe_id: rec4.id )
-
-rev18 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: u5.id, recipe_id: rec5.id )
-
-rev19 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u4.id, recipe_id: rec7.id )
-
-rev20 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec8.id )
-
-rev21 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u2.id, recipe_id: rec9.id )
-
-rev22 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u1.id, recipe_id: rec10.id )
-
-rev23 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec17.id )
+rev12 = Review.create(star_rating: rand(1..10), comment: "eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque viverra justo nec", user_id: u3.id, recipe_id: rec11.id )
 
 
 
-rev24 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: u0.id, recipe_id: rec11.id )
+rev13 = Review.create(star_rating: rand(1..10), comment: "in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet risus feugiat in", user_id: u0.id, recipe_id: rec6.id )
 
-rev25 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: u9.id, recipe_id: rec12.id )
+rev14 = Review.create(star_rating: rand(1..10), comment: "habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas integer eget aliquet", user_id: u9.id, recipe_id: rec1.id )
 
-rev26 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: u8.id, recipe_id: rec13.id )
+rev15 = Review.create(star_rating: rand(1..10), comment: "sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam", user_id: u8.id, recipe_id: rec18.id )
 
-rev27 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: u7.id, recipe_id: rec14.id )
+rev16 = Review.create(star_rating: rand(1..10), comment: "non consectetur a erat nam at lectus urna duis convallis convallis tellus id interdum velit", user_id: u7.id, recipe_id: rec3.id )
 
-rev28 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: u6.id, recipe_id: rec15.id )
+rev17 = Review.create(star_rating: rand(1..10), comment: "arcu non sodales neque sodales ut etiam sit amet nisl purus in mollis nunc sed", user_id: u6.id, recipe_id: rec4.id )
 
-rev29 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: u5.id, recipe_id: rec16.id )
+rev18 = Review.create(star_rating: rand(1..10), comment: "diam sit amet nisl suscipit adipiscing bibendum est ultricies integer quis auctor elit sed vulputate", user_id: u5.id, recipe_id: rec5.id )
 
-rev30 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u4.id, recipe_id: rec17.id )
+rev19 = Review.create(star_rating: rand(1..10), comment: "ac felis donec et odio pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus", user_id: u4.id, recipe_id: rec7.id )
 
-rev31 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec18.id )
+rev20 = Review.create(star_rating: rand(1..10), comment: "diam maecenas ultricies mi eget mauris pharetra et ultrices neque ornare aenean euismod elementum nisi", user_id: u3.id, recipe_id: rec8.id )
 
-rev32 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u2.id, recipe_id: rec1.id )
+rev21 = Review.create(star_rating: rand(1..10), comment: "cum sociis natoque penatibus et magnis dis parturient montes nascetur ridiculus mus mauris vitae ultricies", user_id: u2.id, recipe_id: rec9.id )
 
-rev33 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u1.id, recipe_id: rec3.id )
+rev22 = Review.create(star_rating: rand(1..10), comment: "feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas", user_id: u1.id, recipe_id: rec10.id )
 
-rev34 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec11.id )
-
-
-
-rev35 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: u0.id, recipe_id: rec16.id )
-
-rev36 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: u9.id, recipe_id: rec11.id )
-
-rev37 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: u8.id, recipe_id: rec12.id )
-
-rev38 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: u7.id, recipe_id: rec7.id )
-
-rev39 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: u6.id, recipe_id: rec9.id )
-
-rev40 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: u5.id, recipe_id: rec13.id )
-
-rev41 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u4.id, recipe_id: rec13.id )
-
-rev42 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec1.id )
-
-rev43 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u2.id, recipe_id: rec5.id )
-
-rev44 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u1.id, recipe_id: rec17.id )
-
-rev45 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec8.id )
+rev23 = Review.create(star_rating: rand(1..10), comment: "commodo ullamcorper a lacus vestibulum sed arcu non odio euismod lacinia at quis risus sed", user_id: u3.id, recipe_id: rec17.id )
 
 
-rev46 = Review.create(star_rating: rand(1..10), comment: "Shit was kinda bussy", user_id: u9.id, recipe_id: rec16.id )
 
-rev47 = Review.create(star_rating: rand(1..10), comment: "Not bbuss, opposite of bbuss in fact", user_id: u8.id, recipe_id: rec11.id )
+rev24 = Review.create(star_rating: rand(1..10), comment: "tortor consequat id porta nibh venenatis cras sed felis eget velit aliquet sagittis id consectetur", user_id: u0.id, recipe_id: rec11.id )
 
-rev48 = Review.create(star_rating: rand(1..10), comment: "real bustin", user_id: u7.id, recipe_id: rec12.id )
+rev25 = Review.create(star_rating: rand(1..10), comment: "vitae sapien pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas", user_id: u9.id, recipe_id: rec12.id )
 
-rev49 = Review.create(star_rating: rand(1..10), comment: "Too spicy for my Orc genes", user_id: u6.id, recipe_id: rec7.id )
+rev26 = Review.create(star_rating: rand(1..10), comment: "accumsan sit amet nulla facilisi morbi tempus iaculis urna id volutpat lacus laoreet non curabitur", user_id: u8.id, recipe_id: rec13.id )
 
-rev50 = Review.create(star_rating: rand(1..10), comment: "Radicaaly ribbed", user_id: u5.id, recipe_id: rec9.id )
+rev27 = Review.create(star_rating: rand(1..10), comment: "sit amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam", user_id: u7.id, recipe_id: rec14.id )
 
-rev51 = Review.create(star_rating: rand(1..10), comment: "Sssssspice wassss perfect sss", user_id: u4.id, recipe_id: rec13.id )
+rev28 = Review.create(star_rating: rand(1..10), comment: "integ vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus", user_id: u6.id, recipe_id: rec15.id )
 
-rev52 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u3.id, recipe_id: rec13.id )
+rev29 = Review.create(star_rating: rand(1..10), comment: "at quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam", user_id: u5.id, recipe_id: rec16.id )
 
-rev53 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u2.id, recipe_id: rec1.id )
+rev30 = Review.create(star_rating: rand(1..10), comment: "sapien faucibus et molestie ac feugiat sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi", user_id: u4.id, recipe_id: rec17.id )
 
-rev54 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u1.id, recipe_id: rec5.id )
+rev31 = Review.create(star_rating: rand(1..10), comment: "suspendisse in est ante in nibh mauris cursus mattis molestie a iaculis at erat pellentesque", user_id: u3.id, recipe_id: rec18.id )
 
-rev55 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u0.id, recipe_id: rec17.id )
+rev32 = Review.create(star_rating: rand(1..10), comment: "phasellus faucibus scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada bibendum arcu vitae", user_id: u2.id, recipe_id: rec1.id )
 
-rev56 = Review.create(star_rating: rand(1..10), comment: "I hate shrimp", user_id: u7.id, recipe_id: rec8.id )
+rev33 = Review.create(star_rating: rand(1..10), comment: "ac orci phasellus egestas tellus rutrum tellus pellentesque eu tincidunt tortor aliquam nulla facilisi cras", user_id: u1.id, recipe_id: rec3.id )
+
+rev34 = Review.create(star_rating: rand(1..10), comment: "mi proin sed libero enim sed faucibus turpis in eu mi bibendum neque egestas congue", user_id: u3.id, recipe_id: rec11.id )
+
+
+
+rev35 = Review.create(star_rating: rand(1..10), comment: "cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque elit eget gravida cum sociis", user_id: u0.id, recipe_id: rec16.id )
+
+rev36 = Review.create(star_rating: rand(1..10), comment: "amet consectetur adipiscing elit ut aliquam purus sit amet luctus venenatis lectus magna fringilla urna", user_id: u9.id, recipe_id: rec11.id )
+
+rev37 = Review.create(star_rating: rand(1..10), comment: "mattis ullamcorper velit sed ullamcorper morbi tincidunt ornare massa eget egestas purus viverra accumsan in", user_id: u8.id, recipe_id: rec12.id )
+
+rev38 = Review.create(star_rating: rand(1..10), comment: "tellus mauris a diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus", user_id: u7.id, recipe_id: rec7.id )
+
+rev39 = Review.create(star_rating: rand(1..10), comment: "imperdiet proin fermentum leo vel orci porta non pulvinar neque laoreet suspendisse interdum consectetur libero", user_id: u6.id, recipe_id: rec9.id )
+
+rev40 = Review.create(star_rating: rand(1..10), comment: "id nibh tortor id aliquet lectus proin nibh nisl condimentum id venenatis a condimentum vitae", user_id: u5.id, recipe_id: rec13.id )
+
+rev41 = Review.create(star_rating: rand(1..10), comment: "quis risus sed vulputate odio ut enim blandit volutpat maecenas volutpat blandit aliquam etiam erat", user_id: u4.id, recipe_id: rec13.id )
+
+rev42 = Review.create(star_rating: rand(1..10), comment: "netus et malesuada fames ac turpis egestas sed tempus urna et pharetra pharetra massa massa", user_id: u3.id, recipe_id: rec1.id )
+
+rev43 = Review.create(star_rating: rand(1..10), comment: "ut eu sem integer vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum", user_id: u2.id, recipe_id: rec5.id )
+
+rev44 = Review.create(star_rating: rand(1..10), comment: "pulvinar neque laoreet suspendisse interdum consectetur libero id faucibus nisl tincidunt eget nullam non nisi", user_id: u1.id, recipe_id: rec17.id )
+
+rev45 = Review.create(star_rating: rand(1..10), comment: "interdum velit euismod in pellentesque massa placerat duis ultricies lacus sed turpis tincidunt id aliquet", user_id: u3.id, recipe_id: rec8.id )
+
+
+rev46 = Review.create(star_rating: rand(1..10), comment: "ante metus dictum at tempor commodo ullamcorper a lacus vestibulum sed arcu non odio euismod", user_id: u9.id, recipe_id: rec16.id )
+
+rev47 = Review.create(star_rating: rand(1..10), comment: "vitae justo eget magna fermentum iaculis eu non diam phasellus vestibulum lorem sed risus ultricies", user_id: u8.id, recipe_id: rec11.id )
+
+rev48 = Review.create(star_rating: rand(1..10), comment: "massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium viverra suspendisse potenti", user_id: u7.id, recipe_id: rec12.id )
+
+rev49 = Review.create(star_rating: rand(1..10), comment: "sit amet purus gravida quis blandit turpis cursus in hac habitasse platea dictumst quisque sagittis", user_id: u6.id, recipe_id: rec7.id )
+
+rev50 = Review.create(star_rating: rand(1..10), comment: "libero justo laoreet sit amet cursus sit amet dictum sit amet justo donec enim diam", user_id: u5.id, recipe_id: rec9.id )
+
+rev51 = Review.create(star_rating: rand(1..10), comment: "enim nec dui nunc mattis enim ut tellus elementum sagittis vitae et leo duis ut", user_id: u4.id, recipe_id: rec13.id )
+
+rev52 = Review.create(star_rating: rand(1..10), comment: "volutpat ac tincidunt vitae semper quis lectus nulla at volutpat diam ut venenatis tellus in", user_id: u3.id, recipe_id: rec13.id )
+
+rev53 = Review.create(star_rating: rand(1..10), comment: "amet dictum sit amet justo donec enim diam vulputate ut pharetra sit amet aliquam id", user_id: u2.id, recipe_id: rec1.id )
+
+rev54 = Review.create(star_rating: rand(1..10), comment: "non enim praesent elementum facilisis leo vel fringilla est ullamcorper eget nulla facilisi etiam dignissim", user_id: u1.id, recipe_id: rec5.id )
+
+rev55 = Review.create(star_rating: rand(1..10), comment: "blandit aliquam etiam erat velit scelerisque in dictum non consectetur a erat nam at lectus", user_id: u0.id, recipe_id: rec17.id )
+
+rev56 = Review.create(star_rating: rand(1..10), comment: "elementum nisi quis eleifend quam adipiscing vitae proin sagittis nisl rhoncus mattis rhoncus urna neque", user_id: u7.id, recipe_id: rec8.id )
 
 
 puts "✅ Done seeding!"
